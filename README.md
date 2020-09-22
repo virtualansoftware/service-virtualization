@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/virtualansoftware/virtualan-wsdl-demo.svg?branch=master)](https://travis-ci.com/virtualansoftware/virtualan-wsdl-demo)
 
 
-*I. Initial Set up your project for the Swagger Specification* :
+*I. Initial Set up your project for the WSDL Specification* :
 
 - Why/How to store the mock data in the centralized place:
 	It always provides a choice to choose your data base and configure(spring-jpa). Need to provide data base information in the Application.properties in the "src/main/resources" directory of your spring boot application: This would requires if you don't want to loose the existing mock data because as you redeploy the code the data would be lost.
