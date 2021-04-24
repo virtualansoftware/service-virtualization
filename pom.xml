@@ -17,12 +17,6 @@
     <finalName>virtualan-sv-wsdl-demo</finalName>
     <plugins>
       <plugin>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <groupId>org.springframework.boot</groupId>
-        <version>2.2.4.RELEASE</version>
-      </plugin>
-
-      <plugin>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-codegen-plugin</artifactId>
         <version>3.3.7</version>
@@ -116,6 +110,7 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <groupId>org.apache.maven.plugins</groupId>
+        <version>3.8.1</version>
         <configuration>
           <source>8</source>
           <target>8</target>
@@ -125,6 +120,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.4.4</version>
         <executions>
           <execution>
             <goals>
@@ -146,6 +142,12 @@
       </exclusions>
       <groupId>org.springframework.boot</groupId>
       <version>2.4.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>5.3.6</version>
     </dependency>
 
     <dependency>
