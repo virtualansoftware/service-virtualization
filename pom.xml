@@ -144,52 +144,117 @@
       <version>2.4.6</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-      <version>5.3.8</version>
-    </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <version>2.2.5.RELEASE</version>
-      <scope>test</scope>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>2.5.2</version>
     </dependency>
 
     <dependency>
-      <artifactId>virtualization</artifactId>
-      <exclusions>
-        <exclusion>
-          <artifactId>activemq-all</artifactId>
-          <groupId>org.apache.activemq</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-context</artifactId>
-          <groupId>org.springframework</groupId>
-        </exclusion>
-      </exclusions>
+      <groupId>org.springframework.kafka</groupId>
+      <artifactId>spring-kafka</artifactId>
+      <version>2.7.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.integration</groupId>
+      <artifactId>spring-integration-kafka</artifactId>
+      <version>5.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web-services</artifactId>
+      <version>2.5.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.10.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.10.5.1</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.apache.kafka</groupId>
+      <artifactId>kafka-clients</artifactId>
+      <version>2.7.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.integration</groupId>
+      <artifactId>spring-integration-core</artifactId>
+      <version>5.5.2</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-integration</artifactId>
+      <version>2.5.2</version>
+    </dependency>
+
+    <!--SpringFox dependencies -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <!-- Bean Validation API support -->
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>2.0.0.Final</version>
+    </dependency>
+    <!-- START Virtual Service API support -->
+    <dependency>
       <groupId>io.virtualan</groupId>
+      <artifactId>virtualization</artifactId>
       <version>${virtualan.version}</version>
-    </dependency>
-    <dependency>
-      <artifactId>spring-context</artifactId>
-      <groupId>org.springframework</groupId>
-      <version>5.3.8</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.jvnet.jaxb2_commons</groupId>
-      <artifactId>jaxb2-basics</artifactId>
-      <version>0.12.0</version>
     </dependency>
 
     <!-- HyperSQL DB -->
     <dependency>
-      <artifactId>hsqldb</artifactId>
       <groupId>org.hsqldb</groupId>
-      <version>2.5.1</version>
+      <artifactId>hsqldb</artifactId>
+      <version>2.5.0</version>
     </dependency>
+    <!-- END Virtual Service API support -->
+
+    <!-- Start embedded kafka -->
+    <dependency>
+      <groupId>org.springframework.kafka</groupId>
+      <artifactId>spring-kafka-test</artifactId>
+      <version>2.7.4</version>
+    </dependency>
+
+    <!-- End -->
+    <!--  ActiveMQ -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-activemq</artifactId>
+      <version>2.5.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-broker</artifactId>
+      <version>5.16.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-kahadb-store</artifactId>
+      <version>5.16.2</version>
+    </dependency>
+
+
+
 
     <dependency>
       <artifactId>javassist</artifactId>
