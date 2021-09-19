@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/virtualansoftware/virtualan-wsdl-demo.svg?branch=master)](https://travis-ci.com/virtualansoftware/virtualan-wsdl-demo)
-
 
 <h1 align="center" > Virtualan </h1>
 
