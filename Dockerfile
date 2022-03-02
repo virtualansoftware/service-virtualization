@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM adoptopenjdk/openjdk11
 
 ADD target/virtualan-sv-wsdl-demo.jar /openapi/virtualan/virtualan-sv-wsdl-demo.jar
 
