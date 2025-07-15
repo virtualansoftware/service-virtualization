@@ -7,7 +7,7 @@
   <version>1.0.0</version>
   <modelVersion>4.0.0</modelVersion>
   <properties>
-    <virtualan.version>1.4.1</virtualan.version>
+    <virtualan.version>1.4.4</virtualan.version>
     <cucumber.version>1.2.5</cucumber.version>
     <java.version>11</java.version>
     <maven-jaxb2-plugin.version>0.14.0</maven-jaxb2-plugin.version>
@@ -148,7 +148,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <version>2.5.8</version>
+      <version>3.3.7</version>
     </dependency>
 
     <dependency>
@@ -171,19 +171,19 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>2.10.5</version>
+      <version>2.15.0</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.10.5.1</version>
+      <version>2.15.0</version>
     </dependency>
 
 
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
-      <version>2.7.1</version>
+      <version>3.9.1</version>
     </dependency>
 
     <dependency>
@@ -203,7 +203,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.11.0</version>
+      <version>2.15.0</version>
     </dependency>
     <!-- Bean Validation API support -->
     <dependency>
